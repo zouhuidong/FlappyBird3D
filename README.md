@@ -26,3 +26,8 @@ VS2019 + HuiDong3D + EasyX(20210730)
 ![开始界面](https://github.com/zouhuidong/FlappyBird3D/blob/main/screenshot/1.png)
 ![游戏中](https://github.com/zouhuidong/FlappyBird3D/blob/main/screenshot/2.png)
 ![游戏中](https://github.com/zouhuidong/FlappyBird3D/blob/main/screenshot/3.png)
+
+下面这是我目前的最高分（31998 meters, 22 pillars）
+
+![个人最高分](https://github.com/zouhuidong/FlappyBird3D/blob/main/screenshot/4.png)
+
