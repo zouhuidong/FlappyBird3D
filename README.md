@@ -13,7 +13,7 @@ HuiDong3D 仓库直达： ![HuiDong3D](https://github.com/zouhuidong/HuiDong3D)
 
 **编译环境**
 
-VS2019 + HuiDong3D + EasyX(20210730)
+VS2019 + HuiDong3D(Ver0.1.2(beta)) + EasyX(20210730)
 
 ## 操作说明
 
