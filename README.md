@@ -1,5 +1,5 @@
 # FlappyBird3D
-Flappy brid 3D edition!  Play the classic game in 3D perspective.
+Flappy bird 3D edition!  Play the classic game in 3D perspective.
 
 Flappy Bird 3D 版！  在 3D 视角下玩经典的 flappy bird 游戏。
 
