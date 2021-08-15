@@ -1,3 +1,13 @@
+/**
+ * @file	main.cpp
+ * @brief	Flappy Bird 3D 游戏实现文件
+ * @author	huidong
+ * @mail	huidong_mail@163.com
+ * @version Ver0.1
+ * @date	创建时间 2021-8-13
+ *			最后修改 2021-8-15
+*/
+
 #include "HuiDong3D.h"
 #include "MusicMCI.h"
 #include <conio.h>
@@ -21,6 +31,8 @@
 #define PILLAR_MAX_GAP 300	// 柱子缺口最大大小
 
 #define PILLARS_NUM 100	// 柱子数量
+
+LPCTSTR strInfo = L"Ver0.1 huidong 2021-8-15";
 
 // 主场景
 HD3D::Scence3D m_scence;
@@ -474,9 +486,8 @@ void Menu()
 	settextstyle(40, 0, L"Consolas", 0, 0, 0, 0, 0, 0);
 	outtextxy(230, 320, L"Any key to start");
 
-	LPCTSTR str = L"huidong 2021-8-14";
 	settextstyle(20, 0, L"Consolas");
-	outtextxy(getwidth() - textwidth(str), getheight() - textheight(str), str);
+	outtextxy(getwidth() - textwidth(strInfo), getheight() - textheight(strInfo), strInfo);
 
 	putimage_transparent(0, getheight() - m_imgGuide.getheight(), m_imgGuide, WHITE);
 
@@ -588,8 +599,7 @@ void win()
 
 	settextstyle(30, 0, L"system");
 	settextcolor(BLACK);
-	outtextxy(30,230,L"没想到，真的有人能打到这里。感谢游玩！");
-	outtextxy(350,280,L"huidong 2021-8-14");
+	outtextxy(30,230,L"您太强了，居然打通关了....感谢游玩！");
 
 	settextstyle(20, 0, L"system");
 	settextcolor(BLACK);
@@ -672,7 +682,7 @@ void bgm()
 
 int main(int argc, char** argv)
 {
-	HD3D::InitDrawingDevice(640, 480, 1);
+	HD3D::InitDrawingDevice(640, 480, 0);
 	m_bkColor = RGB(88, 216, 209);
 	BeginBatchDraw();
 
