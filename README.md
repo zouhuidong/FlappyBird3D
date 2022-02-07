@@ -1,4 +1,9 @@
 # FlappyBird3D
+![Downloads](https://img.shields.io/github/downloads/zouhuidong/FlappyBird3D/total)
+![GitHub Version](https://img.shields.io/github/v/release/zouhuidong/FlappyBird3D)
+[![Blog](https://img.shields.io/badge/blog-huidong.xyz-green.svg)](http://huidong.xyz)
+[![EasyX](https://img.shields.io/badge/graphics-EasyX-orange.svg)](https://easyx.cn)
+
 Flappy bird 3D edition!  Play the classic game in 3D perspective.
 
 Flappy Bird 3D 版！  在 3D 视角下玩经典的 flappy bird 游戏。
